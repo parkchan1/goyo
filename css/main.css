@@ -540,7 +540,7 @@ body{
 #send{
     width: 90px;
     height: 90px;
-    border-radius: 100px;
+    border-radius: 1000px;
     background-color: #e9d4c7;
     border: none;
     font-size: 18px;
