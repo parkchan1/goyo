@@ -60,6 +60,45 @@ body{
     color: #fff; 
    transition: all 0.5s;
 }
+.sub_wrap{
+    position: absolute;
+    top: 126px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+#header2 .sub_wrap{
+    background-color:rgba(255, 255, 255, 0.9) ;
+}
+
+#header2 .sub_wrap a:hover{
+    color: #aa8343;
+}
+.submenu{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.submenu_right{
+	float: right;
+}
+
+.submenu_right ul{
+	float: left;
+    width: 110px;
+    text-align: center;
+}
+
+.submenu_right ul li a{
+	display: block;
+    color: #353535;
+	padding: 6px 3px;
+}
+.submenu_right ul li a:hover{
+	color: #fff;
+}
+
+
 #banner{
     height: 920px;
     width: 100%;
