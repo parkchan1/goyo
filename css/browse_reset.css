@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* swiper :: [컨텐츠 공통] */
+
+.wrap_thumb_layout {
+    position: absolute;
+    top: 171px;
+    left: 130px;
+    z-index: 2;
+    /*margin-left: 275px;수정*/
+}
+
+.swiper-container {
+	width: 100%;
+	height: 300px;
+	/* margin: 20px auto; */
+}
+
+.wrap_thumb_layout .swiper-container {
+	margin: 0 auto;
+}
+
+.swiper-slide-container {
+    text-align: center;
+    font-size: 18px;
+
+    height:100%;
+    max-width: 1320px;
+    margin:auto;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.gallery-top {
+    position: relative;
+	height: 100%;
+	width: 100%;
+    overflow: hidden;
+}
+
+.gallery-thumbs {
+    overflow: hidden;
+    width: 530px;
+	height: 260px;
+    box-shadow: 0px 0px 15px rgba(0 , 0, 0, 0.2);
+}
+
+.gallery-thumbs .swiper-slide {
+	/* width: 20%; */
+    width: 100%;
+	height: 100%;
+	opacity: 0.5;
+}
+.gallery-thumbs .swiper-slide-active {
+	opacity: 1;
+}
+
+/* navigation */
+.wrap_thumb_layout .swiper-button-next, .wrap_thumb_layout .swiper-button-prev {
+    top: 75%;
+}
+
+.wrap_thumb_layout .swiper-button-prev, .wrap_thumb_layout .swiper-rtl .swiper-button-next {
+    left: -40px;
+}
+.wrap_thumb_layout .swiper-button-next, .wrap_thumb_layout .swiper-rtl .swiper-button-prev {
+    right: -40px;
+}
+
+/* pagination */
+.swiper-horizontal>.swiper-pagination-bullets, 
+.swiper-pagination-bullets.swiper-pagination-horizontal, 
+.swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: -35px;
+}
+
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+    color: #fff;
+    background: #007aff;
+}
+
+/* progress-bar */
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background-color: crimson;
+}
+
+
+
+
+
+
+
+
+
+
+
+
