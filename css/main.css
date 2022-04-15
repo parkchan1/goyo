@@ -413,7 +413,9 @@ body{
     margin: auto;
     position: relative;
 }
-
+.review_box{
+    overflow: hidden;
+}
 
 .review_inner h1{
     font-size: 21px;
