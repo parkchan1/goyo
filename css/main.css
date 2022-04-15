@@ -270,9 +270,6 @@ body{
     font-size: 21px;
     color: #262626;
 }
-.btn{
-    width: 460px;
-}
 
 .btn button{
     border: none;
@@ -417,6 +414,10 @@ body{
     position: relative;
 }
 
+.review_box{
+	overflow: hidden;
+}
+
 .review_inner h1{
     font-size: 21px;
     color: #262626;
@@ -501,6 +502,7 @@ body{
     border-bottom-right-radius: 100px;
     padding: 35px 60px 0 0;
     box-sizing: border-box;
+	    overflow: hidden;
 }
 .inquriy_input li{
     margin-bottom: 26px;
