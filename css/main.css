@@ -412,7 +412,6 @@ body{
 .review_inner{
     width: 1320px;
     margin: auto;
-		    overflow: hidden
     position: relative;
 }
 .review_box{
