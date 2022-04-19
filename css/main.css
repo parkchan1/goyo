@@ -101,6 +101,22 @@ body{
 	color: #fff;
 }
 
+.submenu_right ul:nth-child(2){
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+.submenu_right ul:nth-child(3){
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.submenu_right ul:nth-child(4){
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+
+
+
 #banner{
     height: 920px;
     width: 100%;
