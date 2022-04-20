@@ -86,9 +86,9 @@ body{
 }
 
 .submenu_right ul{
+    font-size: 15px;
 	float: left;
     width: 110px;
-	font-size: 15px;
     text-align: center;
 }
 
@@ -117,24 +117,11 @@ body{
 
 
 
-#banner{
-    height: 920px;
+video{
     width: 100%;
-    background: url(../images/main/main_banner-1.jpg) no-repeat center top;
 }
 
 
-
-.banner_text{
-    width: 720px;
-    text-align: right;
-    margin: auto;
-    color: #fff;
-    padding-top: 570px;
-}
-.banner_text h1{
-    padding-bottom: 55px;
-}
 
 /* browse */
 
