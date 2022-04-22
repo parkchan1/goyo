@@ -159,6 +159,11 @@ body{
     padding-bottom: 10px;
 }
 
+#top_banner ul li a:hover{
+    border-bottom: 3px solid #fff;
+    padding-bottom: 10px;
+}
+
 /* text_banner */
 
 .text_banner{
