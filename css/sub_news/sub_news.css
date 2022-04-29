@@ -291,60 +291,6 @@ body{
 }
 
 
-#review{
-    width: 1320px;
-    margin: 150px auto;
-    position: relative;
-}
-
-.title{
-    position: absolute;
-    top: -100px;
-    left: 60px;
-    background: url(../../images/news/line.jpg) no-repeat center right;
-    width: 500px;
-}
-
-.swiper {
-    width: 100%;
-    height: 100%;
-  }
-
-  .swiper-slide {
-    text-align: center;
-    width: 1320px;
-    height: 500px;
-    background: #fff;
-    position: relative;
-
-
-  }
-
-  .swiper-slide .review_img {
-    display: block;
-    float: left;
-    margin-left: 100px;
-    object-fit: cover;
-    border-radius: 50px 0 0 0;
-  }
-
-  .review_text{
-   position: absolute;
-   top: 100px;
-   right: 250px;
-    text-align: left;
-
-  }
-  .review_text h1{
-      font-size: 24px;
-      padding-bottom: 50px;
-  }
-
-  .review_star{
-      position: absolute;
-      top: 90px;
-      right: 90px;
-  }
 /* footer */
 
 #footer{
