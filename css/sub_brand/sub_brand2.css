@@ -415,7 +415,7 @@ body{
     background: url(../../images/sub_brand/map_line.jpg) no-repeat center right;
     position: absolute;
     top: -100px;
-    left: 60px;
+    left: 0;
     font-size: 40px;
 }
 
