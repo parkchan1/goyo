@@ -168,8 +168,7 @@ body{
 
 .text_banner{
     width: 1320px;
-    margin: auto;
-    padding: 150px 120px 0 0px;
+    margin: 90px auto;
     box-sizing: border-box;
 }
 
@@ -190,7 +189,7 @@ body{
 #essence{
     width: 1320px;
     height: 685px;
-    margin:  150px auto;
+    margin:  0 auto 150px;
     position: relative;
 
     background: url(../../images/sub_brand/essence_bg.jpg) no-repeat right bottom;
