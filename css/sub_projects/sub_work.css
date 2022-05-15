@@ -106,7 +106,9 @@ body{
     padding-left: 10px;
     box-sizing: border-box;
 }
-
+.padding_bottom{
+    padding-bottom: 20px;
+}
 .submenu_right ul li a{
 	display: block;
     color: #353535;
@@ -123,7 +125,7 @@ body{
 
 /* top_banner */
 #top_banner{
-    background-color: #706041;
+    background: url(../../images/project/project_top_banner1.jpg) no-repeat 35% 10%;
     height: 240px;
     width: 100%;
     color: #fff;
