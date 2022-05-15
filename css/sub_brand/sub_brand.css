@@ -106,7 +106,9 @@ body{
     padding-left: 10px;
     box-sizing: border-box;
 }
-
+.padding_bottom{
+    padding-bottom: 20px;
+}
 .submenu_right ul li a{
 	display: block;
     color: #353535;
@@ -123,7 +125,7 @@ body{
 
 /* top_banner */
 #top_banner{
-    background-color: #aa8343;
+    background: url(../../images/sub_brand/brand_banner.jpg) no-repeat  center 60%;
     height: 240px;
     width: 100%;
     color: #fff;
@@ -168,7 +170,8 @@ body{
 
 .text_banner{
     width: 1320px;
-    margin: 90px auto;
+    margin: auto;
+    padding: 150px 120px 0 0px;
     box-sizing: border-box;
 }
 
@@ -189,7 +192,7 @@ body{
 #essence{
     width: 1320px;
     height: 685px;
-    margin:  0 auto 150px;
+    margin:  150px auto;
     position: relative;
 
     background: url(../../images/sub_brand/essence_bg.jpg) no-repeat right bottom;
@@ -287,7 +290,7 @@ body{
     font-size: 16px;
 }
 .sub_logo_inner ul {
-    width: 750px;
+    width: 800px;
     position: absolute;
     top: 95px;
     left: 50%;
