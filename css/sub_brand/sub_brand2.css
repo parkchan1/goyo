@@ -106,7 +106,9 @@ body{
     padding-left: 10px;
     box-sizing: border-box;
 }
-
+.padding_bottom{
+    padding-bottom: 20px;
+}
 .submenu_right ul li a{
 	display: block;
     color: #353535;
@@ -123,13 +125,12 @@ body{
 
 /* top_banner */
 #top_banner{
-    background-color: #aa8343;
+    background: url(../../images/sub_brand/brand_banner.jpg) no-repeat  center 60%;
     height: 240px;
     width: 100%;
     color: #fff;
     position: relative;
 }
-
 #top_banner h1{
     font-size: 30px;
     position: absolute;
@@ -162,7 +163,10 @@ body{
 #top_banner ul li a:hover{
     border-bottom: 3px solid #fff;
     padding-bottom: 10px;
+
 }
+
+
 .text_banner{
     width: 1320px;
     margin: auto;
@@ -238,7 +242,7 @@ body{
 
 #direction{
     height: 580px;
-    background: url(../../images/sub_brand/banner1.jpg) no-repeat  center fixed;
+    background: url(../../images/sub_brand/banner1.jpg) no-repeat  top center fixed;
     color: #fff;
 }
 
@@ -415,7 +419,7 @@ body{
     background: url(../../images/sub_brand/map_line.jpg) no-repeat center right;
     position: absolute;
     top: -100px;
-    left: 0;
+    left:0px;
     font-size: 40px;
 }
 
