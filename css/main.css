@@ -93,6 +93,9 @@ body{
     padding-left: 10px;
     box-sizing: border-box;
 }
+.padding_bottom{
+    padding-bottom: 20px;
+}
 
 .submenu_right ul li a{
 	display: block;
