@@ -50,7 +50,6 @@ body{
 }
 
 .logo{
-    display: block;
     float: left;
     padding: 30px 0 30px 60px;
 }
@@ -242,7 +241,7 @@ body{
 
 #direction{
     height: 580px;
-    background: url(../../images/sub_brand/banner1.jpg) no-repeat   center fixed;
+    background: url(../../images/sub_brand/banner1.jpg) no-repeat center fixed;
     color: #fff;
 }
 
@@ -255,7 +254,7 @@ body{
     text-align: center;
 
     padding-top: 55px;
-    background: url(../../images/sub_brand/direction_line.png) no-repeat  top 90% center fixed;
+    background: url(../../images/sub_brand/direction_line.png) no-repeat  top 90% center;
 }
 
 .direction_inner h3{
@@ -471,7 +470,6 @@ body{
 }
 .foot_logo{
     float: left;
-    display: block;
     padding: 75px 0 0 60px;
 
 }
