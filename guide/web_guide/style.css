@@ -1,0 +1,5 @@
+#web_wrap_1{
+    width: 100%;
+    max-width: 1920px !important;
+    flex-wrap: wrap;
+}
